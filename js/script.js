@@ -6,6 +6,7 @@ studentInfo.textContent = "Kenley Bides - Student ID: 200607233";
 const catBtn = document.getElementById("load-cat");
 const catContainer = document.getElementById("cat-container");
 
+/* even listener on the button */
 catBtn.addEventListener("click", () => {
   fetch("https://api.thecatapi.com/v1/images/search")
     .then((response) => response.json())
@@ -19,6 +20,7 @@ catBtn.addEventListener("click", () => {
       catContainer.appendChild(catImg);
     })
     .catch((error) => {
+      /* in case of an error */
       catContainer.innerHTML = "<p>Couldn't load a cat 😿</p>";
       console.error("Error fetching cat image:", error);
     });
