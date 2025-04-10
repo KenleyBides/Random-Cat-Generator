@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #student-info {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3f3f;
+  }
+  
+  #cat-container {
+    margin-top: 2rem;
+  }
+  
+  .cat-img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 1rem;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
